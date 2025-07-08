@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap');
+
+.alumni-sans-sc{
+  font-family: "Alumni Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h1{
+  border: 1px solid;
+    border-radius: 10px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 52%;
+  margin: 0px auto;
+  margin-top: 40px;
+  background-color: ;
+  font-family: "alumni-sans-sc";
+  font-size: 70px
+}
+
+p{
+  font-family: "alumni-sans-sc";
+  font-size: 40px
+}
+section{
+  background-color: #A9E5BB;
+  margin: 0px auto;
+  margin-top: 30px;
+  width: calc(100% - 120px);
+  padding: 60px ;
+  display: flow-root;
+  height: 600px;
+
+
+}
+article{
+  width: calc(100% / 3 - 42px);
+  float: left;
+  background-color: #FCF6B1;
+  margin: 0px auto;
+ border: 1px solid;
+  border-radius: 10%;
+  margin-right: 20px;
+  margin-left: 20px;
+ 
+  
+}
+article > p {
+  text-align: center;
+  margin-top: 15%
+}
+
+article > img{
+margin: 0px auto;
+width: calc(100% - 20px - 20px);
+  height: 340px;
+  object-fit: contain;
+  margin-left: 21px;
+  margin-bottom: 20px;
+  
+}
+footer{
+  display:flow-root;
+  background-color: #F7B32B;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+footer > p {
+  width:40%;
+  float: left;
+  margin-left: 10%;
+  border: 2px solid white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 0;
+  font-size: 25px;
+}
+footer > a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  float: right;
+  background-color :black;
+  margin: 0px 10px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+footer > a > i{
+  text-align: center;
+  width: 100%;
+  margin-top: 25%;
+}
+
+footer > a > i:hover{
+  color: #A9E5BB;
+}
+
+.last{
+  background-color: #F72C25;
+  margin-right: 5%;
+}
+
+article > a{
+  text-decoration: none;
+}
+
+article > a > button{
+  display: block;
+  width: 65%;
+  margin: 20px auto;
+  padding: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: white;
+  padding: 10px 10px;
+}
+
+article > a > button:hover{
+background: #A9E5BB;
+background: linear-gradient(90deg, rgba(169, 229, 187, 1) 0%, rgba(252, 246, 177, 1) 50%, rgba(247, 179, 43, 1) 100%);
+
+  
+}
+
+.derecha:hover{
+  box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+  
+}
+
+.centro:hover{
+  box-shadow: 0px 10px 0px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 10px 0px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 0px 0px rgba(0,0,0,0.75);
+}
+
+.izquierda:hover{
+  box-shadow: -10px 10px 0px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -10px 10px 0px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -10px 10px 0px 0px rgba(0,0,0,0.75);
+}
